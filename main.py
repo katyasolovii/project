@@ -218,7 +218,7 @@ class GUI:
         )
 
         canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
-        canvas.configure(yscrollcommand=scrollbar.set, width=1350, height=350)
+        canvas.configure(yscrollcommand=scrollbar.set, xscrollcommand=scrollbar1.set, width=1350, height=350)
 
         self.line_frames = []
         # словник для того, щоб зберегти акорд біля слова після введення його
