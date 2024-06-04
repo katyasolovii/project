@@ -1,4 +1,4 @@
-# Sheet Music Editor
+# The Sheet Music Editor
 
 Семетровий проєкт "Нотний редактор".
 
