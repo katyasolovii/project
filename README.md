@@ -37,6 +37,8 @@ musicpy - "get_chord", "mp.alg.detect" (транспонування септа�
 
 scamp - "play_chord" (вітвореня акордів, Guitar Nylon X)
 
+<img width="880" alt="Знімок екрана 2024-06-04 о 16 54 32" src="https://github.com/katyasolovii/project/assets/144212333/30483046-5b25-4b76-8b6f-a7ed7961cc23">
+
 ---
 Посилання на [презентацію](https://www.canva.com/design/DAGHAMRkDqg/0w9uHvJZKA1hyqgQbZ7LQQ/edit)
 
