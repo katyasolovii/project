@@ -33,7 +33,7 @@ scamp - "play_chord" (вітвореня акордів, Guitar Nylon X)
 ---
 Посилання на [презентація](https://www.canva.com/design/DAGHAMRkDqg/0w9uHvJZKA1hyqgQbZ7LQQ/edit)
 
-У презентації продемонстровано як працює програма та коротко розписано про структуру коду UML-діаграма.
+У презентації продемонстровано як працює програма та коротко розписано про структуру коду (UML-діаграма).
 
 UML-діаграма
 <img width="1060" alt="Знімок екрана 2024-06-04 о 16 29 23" src="https://github.com/katyasolovii/project/assets/144212333/b7c4b9c4-5099-4d16-9bf2-7f37e34ec54e">
