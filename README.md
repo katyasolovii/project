@@ -27,6 +27,7 @@
 - pytransposer
 - musicpy
 - scamp
+- os
   
 tkinter - "Label", "Button", "Frame", "Listbox", "Text"
           "Scrollbar", "Canvas", "Toplevel", "Entry", "Tk"
@@ -37,7 +38,9 @@ musicpy - "get_chord", "mp.alg.detect" (транспонування септа�
 
 scamp - "play_chord" (вітвореня акордів, Guitar Nylon X)
 
-<img width="880" alt="Знімок екрана 2024-06-04 о 16 54 32" src="https://github.com/katyasolovii/project/assets/144212333/30483046-5b25-4b76-8b6f-a7ed7961cc23">
+os - os.path.exists(filename) (перевіряє чи існує відповідний файл; os.path підмодуль бібліотеки os)
+
+<img width="979" alt="Знімок екрана 2024-06-05 о 00 22 45" src="https://github.com/katyasolovii/project/assets/144212333/3ce5ae77-957f-4084-a899-510ad9af15ed">
 
 ---
 Посилання на [презентацію](https://www.canva.com/design/DAGHAMRkDqg/0w9uHvJZKA1hyqgQbZ7LQQ/edit)
