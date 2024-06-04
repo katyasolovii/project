@@ -180,7 +180,7 @@ class GUI:
 
         heading = ttk.Label(root, text="Add chords!", style="TLabel", justify="center")
         heading.pack(pady=20)
-        self.location(1450, 750)
+        self.location(1450, 780)
 
         text_tonal = ttk.Label(root, text="Choose a Tonality:", style="TLabel", justify="center")
         text_tonal.pack(pady=10)
@@ -208,6 +208,8 @@ class GUI:
         canvas = tk.Canvas(frame_for_chords, background="LightBlue1")
         scrollbar = ttk.Scrollbar(frame_for_chords, orient="vertical", command=canvas.yview)
         scrollbar1 = ttk.Scrollbar(frame_for_chords, orient="horizontal", command=canvas.xview)
+        scrollbar.pack(side="right", fill="y")
+        scrollbar1.pack(side="bottom", fill="x")
         scrollable_frame = ttk.Frame(canvas, style="TFrame")
 
         scrollable_frame.bind(
@@ -235,8 +237,6 @@ class GUI:
             self.word_buttons[(word, (row, position))] = word_button 
 
         canvas.pack(side="left", fill="both", expand=True)
-        scrollbar.pack(side="right", fill="y")
-        scrollbar1.pack(side="bottom", fill="x")
         
         buttons_frame = ttk.Frame(root, style="TFrame")
         buttons_frame.pack(pady=15)
